@@ -26,15 +26,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit language packages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Charger
 PRODUCT_PACKAGES += \
-    charger_res_images
+	charger_res_images \
+	charger
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := omni_mido
 PRODUCT_BRAND := Xiaomi
