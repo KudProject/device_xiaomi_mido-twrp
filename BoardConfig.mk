@@ -81,3 +81,5 @@ TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
+
+-include vendor/kud/recovery/config.mk
