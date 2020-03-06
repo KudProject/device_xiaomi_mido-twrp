@@ -82,4 +82,4 @@ TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
 
--include vendor/kud/recovery/config.mk
+-include vendor/kud/config/recovery.mk
