@@ -8,4 +8,4 @@ To compile:
 . build/envsetup.sh && breakfast mido eng && mka recoveryimage
 ```
 
-Kernel source: [KudProject/kernel_xiaomi_msm8953-3.18](https://github.com/KudProject/kernel_xiaomi_msm8953-3.18)
+Kernel source: [KudProject/kernel_xiaomi_msm8953-4.9](https://github.com/KudProject/kernel_xiaomi_msm8953-4.9)
