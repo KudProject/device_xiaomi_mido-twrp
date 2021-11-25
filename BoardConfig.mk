@@ -85,4 +85,5 @@ TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
 
+-include $(LOCAL_PATH)/BoardConfigSHRP.mk
 -include vendor/kud/config/recovery.mk
